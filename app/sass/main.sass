@@ -1,0 +1,28 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	&:before, &:after
+		-webkit-box-sizing: border-box
+		-moz-box-sizing: border-box
+		box-sizing: border-box
+
+.main-content
+	max-width: 1100px
+	margin-left: auto
+	margin-right: auto
+	background-color: red
+
+#top-btn
+	position: fixed
+	z-index: 100
+	padding: 16px
+	background-color: lightgrey
+	height: 100vh
+	display: none
+
+@import "media" // Всегда в конце
